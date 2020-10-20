@@ -1,0 +1,8 @@
+.ChoosDetails:hover{
+    border: 5px solid orange;
+    transform: scale(1.1);
+}
+.ChoosDetails{
+    transition-timing-function: ease;
+    transition: all 1s;
+}

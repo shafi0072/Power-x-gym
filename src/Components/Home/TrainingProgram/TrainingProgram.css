@@ -1,0 +1,20 @@
+.nameProgram{
+    position: relative;
+    bottom: 80px;
+    left: 1111px;
+    
+}
+.TrainingSize{
+    overflow: hidden;
+    height: 300px!important;
+    transition-timing-function: ease;
+    transition:  1s;
+}
+.TrainingSize:hover .nameProgram{
+    transform: translateX(5px);
+    position: relative;
+    bottom: 80px;
+    left: 11px;
+    transition-timing-function: ease;
+    transition:  1s;
+}

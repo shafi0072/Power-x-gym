@@ -1,0 +1,30 @@
+.detailsDiv{
+    background-color: black;
+    transform: translateY(120px);
+    transition-timing-function: ease;
+    transition:  1s;
+    height: 200px;
+    
+    
+}
+
+.imageHover:hover .detailsDiv{
+ background-color: rgba(0, 0, 0, 0.323);
+   
+   position: relative;
+    bottom: 240px;
+    
+    transform: translateY(-10px);
+    
+}
+.imageHover{
+    
+    transition: ease 1s;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imageHover:hover {
+    transition-timing-function: ease;
+   transform: scale(1.1);
+}
