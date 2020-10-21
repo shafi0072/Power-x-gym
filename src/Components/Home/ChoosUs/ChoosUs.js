@@ -30,7 +30,7 @@ const ChoosUs = () => {
         },
     ]
     return (
-        <div className='container'>
+        <div id='blog' className='container'>
             <div className="text-center mt-5">
             <h1 data-aos='fade-right' className="text-warning" style={{fontFamily: "'Anton', sans-serif"}}>WHY <span className="text-light">CHOOSE US</span></h1>
             </div>

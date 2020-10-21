@@ -7,7 +7,7 @@ const AboutUs = () => {
         Aos.init({duration:2000})
     })
     return (
-        <div>
+        <div id='about'>
             <div className="container mt-5">
                 <div className="row mt-5">
                     <div data-aos='fade-right' className="col-md-6 mt-5">

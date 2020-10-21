@@ -1,3 +1,4 @@
+import { Schedule } from '@material-ui/icons';
 import React from 'react';
 import Footer from '../../Shared/Footer/Footer';
 import HeadPower from '../../Shared/HeadPower/HeadPower';
@@ -13,6 +14,7 @@ const OurCours = () => {
             <div className="mt-5">
                 <Footer/>
             </div>
+            
         </div>
     );
 };

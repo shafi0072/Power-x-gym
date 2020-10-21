@@ -1,0 +1,6 @@
+#backingPricingImage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0.405)), url(../../../Image//penguinuhh-8VI6WwEEEHw-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
