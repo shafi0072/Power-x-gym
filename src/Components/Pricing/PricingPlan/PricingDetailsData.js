@@ -10,6 +10,7 @@ import CheckIcon from '@material-ui/icons/Check';
 import './PricingPlan.css';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 const useStyles = makeStyles({
     
     root: {
@@ -62,7 +63,7 @@ const PricingDetailsData = (props) => {
                         </Typography>
                     </CardContent>
                     <CardActions className='d-flex justify-content-center'>
-                        <button  style={{ fontSize:'20px', fontFamily: "'Anton', sans-serif"}} className='btn btn-warning text-center pl-3 pr-3'>PURCHASE</button>
+                        <Link to='/form'><button  style={{ fontSize:'20px', fontFamily: "'Anton', sans-serif"}} className='btn btn-warning text-center pl-3 pr-3'>PURCHASE</button></Link>
                     </CardActions>
                 </Card>
             </div>

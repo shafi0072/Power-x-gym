@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createContext, useState } from 'react';
 
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
@@ -7,10 +7,16 @@ import OurCours from './Components/OurCours/OurCours/OurCours';
 
 import Schedules from './Components/OurCours/Schedules/Schedules/Schedules';
 import Pricing from './Components/Pricing/Pricing/Pricing';
-
+import FormFilap from './Components/FormFilap/FormFilap';
+export const userContext = createContext()
 function App() {
+    const [payment, setPayments] = useState({
+        isFormFilap:true,
+        isPayments: false,
+        isConfirm: false,
+    })
     return (
-        <div className='App'>
+        <userContext.Provider value={[payment, setPayments]} className='App'>
             <Router>
                 <Switch>
                     <Route exact="exact" path='/'>
@@ -23,11 +29,14 @@ function App() {
                         <Schedules/>
                     </Route>
                     <Route path='/pricing'>
-                        <Pricing/>/
+                        <Pricing/>
+                    </Route>
+                    <Route path='/form'>
+                        <FormFilap />
                     </Route>
                 </Switch>
             </Router>
-        </div>
+        </userContext.Provider>
     );
 }
 
