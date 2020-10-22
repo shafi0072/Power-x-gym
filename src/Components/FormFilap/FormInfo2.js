@@ -18,22 +18,22 @@ const FormInfo2 = () => {
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput"
-                        placeholder="Example input placeholder"/></div>
+                        placeholder="Last Name"/></div>
                 <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Mobile</label>
                     <input
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder"/>
+                        placeholder="Mobile"/>
                 </div>
                 <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Gender</label>
                     <input
-                        type="date"
+                        type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder"/>
+                        placeholder="Gender"/>
                 </div>
                 <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Country/Region</label>
@@ -41,7 +41,7 @@ const FormInfo2 = () => {
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder"/>
+                        placeholder="Country/Region"/>
                 </div>
                 <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">postcode</label>
@@ -49,7 +49,7 @@ const FormInfo2 = () => {
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder"/>
+                        placeholder="postcode"/>
                 </div>
                 <div className="row">
                     <div className="col-md-6"></div>

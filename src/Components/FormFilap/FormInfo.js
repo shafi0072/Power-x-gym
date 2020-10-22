@@ -10,14 +10,14 @@ const FormInfo = () => {
                     type="text"
                     class="form-control"
                     id="formGroupExampleInput"
-                    placeholder="Example input placeholder" /></div>
+                    placeholder="First Name" /></div>
                 <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Email</label>
                     <input
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder" />
+                        placeholder="Email" />
                         </div>
                         <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Date ob Birth</label>
@@ -25,7 +25,7 @@ const FormInfo = () => {
                         type="date"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder" />
+                        placeholder="Date ob Birth" />
                         </div>
                         <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">Address line: 1</label>
@@ -33,7 +33,7 @@ const FormInfo = () => {
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder" />
+                        placeholder="Address line: 1" />
                         </div>
                         <div class="form-group">
                     <label className="text-light" for="formGroupExampleInput2">City</label>
@@ -41,7 +41,7 @@ const FormInfo = () => {
                         type="text"
                         class="form-control"
                         id="formGroupExampleInput2"
-                        placeholder="Another input placeholder" />
+                        placeholder="City" />
                         </div>
                         
                 </form>

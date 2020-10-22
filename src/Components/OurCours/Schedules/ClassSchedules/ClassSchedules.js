@@ -7,6 +7,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useParams } from 'react-router-dom';
 import Footer from '../../../Shared/Footer/Footer';
+import { Link } from 'react-router-dom';
 const ClassSchedules = () => {
     const DateDetails1 = [
         {
@@ -91,6 +92,9 @@ const ClassSchedules = () => {
                         </div>
                         <div data-aos='fade-left' className="col-md-6">
                             {DateDetails2.map(data => <DateDeatail2 data={data}/>)}
+                            <div className="mt-5 d-flex ml-5 justify-content-end">
+                            <Link to='/pricing'><button data-aos='fade-left' className="btn btn-warning pt-2 pb-1 pl-4 pr-4"><h4 className="button-text" style={{fontFamily: "'Anton', sans-serif"}}>JOIN US</h4></button></Link>
+                            </div>
                         </div>
                     </div>
                 </div>

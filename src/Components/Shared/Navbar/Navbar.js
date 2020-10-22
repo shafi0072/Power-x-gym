@@ -18,7 +18,7 @@ const Navbar = () => {
             <div>
                 <nav class={`navbar navbar-expand-lg navbar-dark navigation ${show && "navBlack"}`}>
                     <div className="container">
-                    <Link class="navbar-brand " href="#">
+                    <Link class="navbar-brand " to="/">
                         <h1 style={{fontFamily: "'Anton', sans-serif"}}>Power
                             <span className="text-warning">X</span>
                         </h1>

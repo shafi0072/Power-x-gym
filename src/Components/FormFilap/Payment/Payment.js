@@ -17,6 +17,7 @@ const Payment = () => {
         newPay.isPayments = true;
         newPay.isConfirm = true;
         setPayments(newPay);
+        alert('Great Man You Successfully Done!!!')
     }
     return (
         <div style={{backgroundColor: 'rgb(49, 48, 48)', borderRadius:'20px', padding:'50px'}}>
